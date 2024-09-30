@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+   
+}
+
+.Video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  
+}
+
+#video-background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    *{
+        color: #fff;
+    }
+    .Video-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #video-background {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        object-fit: contain;
+    }
+
+    .container {
+        padding: 22px;
+        height: 80px;
+        position: absolute;
+        background: #9F385D;
+        top: 23%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 100;
+        font-size: 31.8px;
+    }
+
+   .hero .clock{
+        min-width: 280px;
+        background: #9F385D;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .day{
+        min-width: 280px;
+        background: #9F385D;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 9px;
+    }
+}
+
